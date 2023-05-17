@@ -1,0 +1,109 @@
+{
+  "mappings": {
+    "club/sk1er/patcher/mixins/hudcaching/GuiIngameMixin_HUDCaching": {
+      "renderVignette": "Lnet/minecraft/client/gui/GuiIngame;func_180480_a(FLnet/minecraft/client/gui/ScaledResolution;)V"
+    },
+    "club/sk1er/patcher/mixins/GuiScreenServerListMixin_FakeServerListDirectConnect": {
+      "actionPerformed": "Lnet/minecraft/client/gui/GuiScreenServerList;func_146284_a(Lnet/minecraft/client/gui/GuiButton;)V"
+    },
+    "club/sk1er/patcher/mixins/MinecraftMixin_FpsLimit": {
+      "getLimitFramerate": "Lnet/minecraft/client/Minecraft;func_90020_K()I"
+    },
+    "club/sk1er/patcher/mixins/hudcaching/GlStateManagerMixin_HUDCaching": {
+      "color(FFFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179131_c(FFFF)V",
+      "tryBlendFuncSeparate": "Lnet/minecraft/client/renderer/GlStateManager;func_179120_a(IIII)V",
+      "enableBlend": "Lnet/minecraft/client/renderer/GlStateManager;func_179147_l()V",
+      "disableBlend": "Lnet/minecraft/client/renderer/GlStateManager;func_179084_k()V",
+      "blendFunc": "Lnet/minecraft/client/renderer/GlStateManager;func_179112_b(II)V"
+    },
+    "club/sk1er/patcher/mixins/MinecraftMixin_CustomF3": {
+      "runTick": "Lnet/minecraft/client/Minecraft;func_71407_l()V"
+    },
+    "club/sk1er/patcher/mixins/hudcaching/EntityRendererMixin_HUDCaching": {
+      "Lnet/minecraft/client/gui/GuiIngame;renderGameOverlay(F)V": "Lnet/minecraft/client/gui/GuiIngame;func_175180_a(F)V",
+      "updateCameraAndRender": "Lnet/minecraft/client/renderer/EntityRenderer;func_181560_a(FJ)V"
+    },
+    "club/sk1er/patcher/mixins/hudcaching/FramebufferMixin_HUDCaching": {
+      "bindFramebuffer": "Lnet/minecraft/client/shader/Framebuffer;func_147610_a(Z)V"
+    },
+    "club/sk1er/patcher/mixins/ServerListEntryNormalMixin_ResolveCrash": {
+      "drawEntry": "Lnet/minecraft/client/gui/ServerListEntryNormal;func_180790_a(IIIIIIIZ)V",
+      "Lnet/minecraft/client/gui/ServerListEntryNormal;prepareServerIcon()V": "Lnet/minecraft/client/gui/ServerListEntryNormal;func_148297_b()V"
+    },
+    "club/sk1er/patcher/mixins/RendererLivingEntityMixin_NametagRendering": {
+      "canRenderName": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_177070_b(Lnet/minecraft/entity/EntityLivingBase;)Z"
+    }
+  },
+  "data": {
+    "notch": {
+      "club/sk1er/patcher/mixins/hudcaching/GuiIngameMixin_HUDCaching": {
+        "renderVignette": "Lavo;a(FLavr;)V"
+      },
+      "club/sk1er/patcher/mixins/GuiScreenServerListMixin_FakeServerListDirectConnect": {
+        "actionPerformed": "Laxg;a(Lavs;)V"
+      },
+      "club/sk1er/patcher/mixins/MinecraftMixin_FpsLimit": {
+        "getLimitFramerate": "Lave;j()I"
+      },
+      "club/sk1er/patcher/mixins/hudcaching/GlStateManagerMixin_HUDCaching": {
+        "color(FFFF)V": "Lbfl;c(FFFF)V",
+        "tryBlendFuncSeparate": "Lbfl;a(IIII)V",
+        "enableBlend": "Lbfl;l()V",
+        "disableBlend": "Lbfl;k()V",
+        "blendFunc": "Lbfl;b(II)V"
+      },
+      "club/sk1er/patcher/mixins/MinecraftMixin_CustomF3": {
+        "runTick": "Lave;s()V"
+      },
+      "club/sk1er/patcher/mixins/hudcaching/EntityRendererMixin_HUDCaching": {
+        "Lnet/minecraft/client/gui/GuiIngame;renderGameOverlay(F)V": "Lavo;a(F)V",
+        "updateCameraAndRender": "Lbfk;a(FJ)V"
+      },
+      "club/sk1er/patcher/mixins/hudcaching/FramebufferMixin_HUDCaching": {
+        "bindFramebuffer": "Lbfw;a(Z)V"
+      },
+      "club/sk1er/patcher/mixins/ServerListEntryNormalMixin_ResolveCrash": {
+        "drawEntry": "Lazk;a(IIIIIIIZ)V",
+        "Lnet/minecraft/client/gui/ServerListEntryNormal;prepareServerIcon()V": "Lazk;c()V"
+      },
+      "club/sk1er/patcher/mixins/RendererLivingEntityMixin_NametagRendering": {
+        "canRenderName": "Lbjl;a(Lpr;)Z"
+      }
+    },
+    "searge": {
+      "club/sk1er/patcher/mixins/hudcaching/GuiIngameMixin_HUDCaching": {
+        "renderVignette": "Lnet/minecraft/client/gui/GuiIngame;func_180480_a(FLnet/minecraft/client/gui/ScaledResolution;)V"
+      },
+      "club/sk1er/patcher/mixins/GuiScreenServerListMixin_FakeServerListDirectConnect": {
+        "actionPerformed": "Lnet/minecraft/client/gui/GuiScreenServerList;func_146284_a(Lnet/minecraft/client/gui/GuiButton;)V"
+      },
+      "club/sk1er/patcher/mixins/MinecraftMixin_FpsLimit": {
+        "getLimitFramerate": "Lnet/minecraft/client/Minecraft;func_90020_K()I"
+      },
+      "club/sk1er/patcher/mixins/hudcaching/GlStateManagerMixin_HUDCaching": {
+        "color(FFFF)V": "Lnet/minecraft/client/renderer/GlStateManager;func_179131_c(FFFF)V",
+        "tryBlendFuncSeparate": "Lnet/minecraft/client/renderer/GlStateManager;func_179120_a(IIII)V",
+        "enableBlend": "Lnet/minecraft/client/renderer/GlStateManager;func_179147_l()V",
+        "disableBlend": "Lnet/minecraft/client/renderer/GlStateManager;func_179084_k()V",
+        "blendFunc": "Lnet/minecraft/client/renderer/GlStateManager;func_179112_b(II)V"
+      },
+      "club/sk1er/patcher/mixins/MinecraftMixin_CustomF3": {
+        "runTick": "Lnet/minecraft/client/Minecraft;func_71407_l()V"
+      },
+      "club/sk1er/patcher/mixins/hudcaching/EntityRendererMixin_HUDCaching": {
+        "Lnet/minecraft/client/gui/GuiIngame;renderGameOverlay(F)V": "Lnet/minecraft/client/gui/GuiIngame;func_175180_a(F)V",
+        "updateCameraAndRender": "Lnet/minecraft/client/renderer/EntityRenderer;func_181560_a(FJ)V"
+      },
+      "club/sk1er/patcher/mixins/hudcaching/FramebufferMixin_HUDCaching": {
+        "bindFramebuffer": "Lnet/minecraft/client/shader/Framebuffer;func_147610_a(Z)V"
+      },
+      "club/sk1er/patcher/mixins/ServerListEntryNormalMixin_ResolveCrash": {
+        "drawEntry": "Lnet/minecraft/client/gui/ServerListEntryNormal;func_180790_a(IIIIIIIZ)V",
+        "Lnet/minecraft/client/gui/ServerListEntryNormal;prepareServerIcon()V": "Lnet/minecraft/client/gui/ServerListEntryNormal;func_148297_b()V"
+      },
+      "club/sk1er/patcher/mixins/RendererLivingEntityMixin_NametagRendering": {
+        "canRenderName": "Lnet/minecraft/client/renderer/entity/RendererLivingEntity;func_177070_b(Lnet/minecraft/entity/EntityLivingBase;)Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+TweakOrder: 0
+ModSide: CLIENT
+MixinConfigs: patcher.mixins.json
+FMLCorePluginContainsFMLMod: Yes, yes it does
+FMLAT: patcher_at.cfg
+TweakClass: gg.essential.loader.stage0.EssentialSetupTweaker
+FMLCorePlugin: club.sk1er.patcher.tweaker.PatcherTweaker
+Main-Class: club.sk1er.container.ContainerMessage
+
